@@ -1,10 +1,14 @@
 @import 'vars';
 
 .Menu {
+	position: absolute;
+	top: 60px;
+	right: 60px;
 	width: 100px;
-	height: auto;
 	border: 1px solid var(--very-light-pink);
+	height: auto;
 	border-radius: 6px;
+	background-color: var(--text-input-field);
 	padding: 20px 20px 0 20px;
 }
 .Menu ul {

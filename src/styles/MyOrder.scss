@@ -6,7 +6,30 @@
 	box-sizing: border-box;
 	position: absolute;
 	right: 0;
+	background-color: var(--text-input-field);
+	top: 60px;
+	bottom: 140px;
+	border-radius: 6px;
+	border: 1px solid var(--very-light-pink);
 }
+
+.my-order-content::-webkit-scrollbar {
+	width: 0.8rem;
+}
+.my-order-content::-webkit-scrollbar-track {
+background: var( --very-light-pink );
+border-radius: 1rem;
+}
+.my-order-content::-webkit-scrollbar-thumb {
+background-color: var( --hospital-green );
+border-radius: 20px;
+}
+.my-order-content {
+	height: 300px;
+	overflow-y: scroll;
+	overflow-x:hidden;
+}
+
 .title-container {
 	display: flex;
 }
