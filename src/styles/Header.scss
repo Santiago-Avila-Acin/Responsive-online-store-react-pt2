@@ -5,10 +5,15 @@ nav {
 	justify-content: space-between;
 	padding: 0 24px;
 	border-bottom: 1px solid var(--very-light-pink);
+	position: sticky;
+	top: 0;
+	background-color: var(--text-input-field);
 }
 .menu {
 	display: none;
+	cursor: pointer;
 }
+
 .logo {
 	width: 100px;
 }
@@ -64,9 +69,13 @@ nav {
 	justify-content: center;
 	align-items: center;
 }
-@media (max-width: 640px) {
+
+@media (max-width: 800px) {
 	.menu {
 		display: block;
+	}
+	.nav-logo {
+		width: 200px;
 	}
 	.navbar-left ul {
 		display: none;
@@ -74,4 +83,11 @@ nav {
 	.navbar-email {
 		display: none;
 	}
+
 }
+
+@media (max-width: 330px) {
+	.nav-logo{
+		display: none;
+	}
+	}

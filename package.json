@@ -1,5 +1,4 @@
 {
-  "homepage":"https://github.com/Santiago-Avila-Acin/Responsive-online-store-react-pt2",
   "name": "responsive-react-store",
   "version": "1.0.0",
   "description": "Responsive online store project with the aim of testing and reaffirming my knowledge of HTML, CSS, Sass, JavaScript and React",
@@ -44,5 +43,6 @@
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1"
-  }
+  },
+  "homepage":"https://github.com/Santiago-Avila-Acin/Responsive-online-store-react-pt2"
 }
